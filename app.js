@@ -142,4 +142,142 @@ else{
 };
 
 //G. Monkey in the Middle
+const check = () =>{
+  for(let i = 0; i < 10; i++);
+  if(i < 10){
+    console.log("little number")
+  }
+  else if(i > 10){
+    console.log("big number")
+  }
+  else{
+    console.log("monkey")
+  }
+};
 
+//H. What's in Your Closet?
+
+//1.
+{`Kristyn is rocking that ${kristynsCloset([2])} today!`}
+
+//2. 
+kristynsCloset.push('raybans', [6])
+
+//3.
+kristynsCloset.replace([5], 'stained knit hat')
+
+//IV. Functions
+
+//A. printGreeting
+
+const printGreeting = (name) =>{
+  let name = "Quenton"
+  console.log(`Hello, there, ${name}!`)
+}
+
+//B. printCool
+
+const printCool = (name) =>{
+  name = "Captain Reynolds"
+  console.log(`${name} is cool`)
+}
+
+//C. calculateCube
+
+const calculateCube = (volume) =>{
+  let length = 5;
+  let width = 8;
+  let height = 6;
+  let volume = (length * width * height)
+  console.log(volume)
+}
+
+//D. isVowel
+
+//E. getTwoLengths
+
+const getTwoLengths = (name, animal ) =>{
+  let name = "Hank" 
+  let animal = "Hippopopalous"
+  let animalLength = animal.length
+  let namelength = name.length
+  console.log(namelength, animalLength);
+}
+
+//F. getMultipleLengths
+
+//G. maxofThree
+
+const maxofThree = (num1, num2, num3) =>{
+  num1 = 12
+  num2 = 5
+  num3 = 8
+}
+
+//H. printLongestWord
+
+const printLongestWord = () => {
+  let words = ["abracadabra", "browserrouter", "holysmokesbatman"]
+  Math.max(words.length([]))
+}
+
+//OBJECTS
+
+//A. Make a user object
+
+//B. Update the user
+
+let user = {
+  name: "Buzz Lightyear",
+  email: "2nfinityandbeyond@gmail.com",
+  age: 2, 
+  purchased: "[]"
+}
+
+const changeAge = () =>{
+  age++
+}
+
+//C. Addings keys and values
+
+//D. Shopaholic!
+
+//1.
+user.purchased.push('carboyhydrates')
+
+//2.
+user.purchased.push('peace of mind')
+
+//3.
+user.purchased.push('Merino jodhpurs')
+
+//4.
+console.log(user.purchased('Merino jodhpurs'))
+
+//E. Object-within-object
+
+//1.
+let user.friend = {
+  name: "John",
+  age: 27,
+  location: "Chicago",
+  purchased: ["The One Ring", "A latte"]
+}
+
+//2.
+console.log(user.friend.name)
+
+//3.
+console.log(user.friend.location)
+
+//4.
+
+//F. Loops
+
+//G. Functions can operate on objects
+
+//1. 
+const upTheAge = () =>{
+  age++
+  age.toUpperCase()
+}
